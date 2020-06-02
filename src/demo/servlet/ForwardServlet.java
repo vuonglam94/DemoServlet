@@ -26,7 +26,7 @@ public class ForwardServlet extends HttpServlet {
 
 			// Sét dữ liệu vào thuộc tính (attribute) của request.
 			request.setAttribute("show", //
-					"Hi, I'm Tom come from Walt Disney !");
+					"Hi, This is Show Page after Servlet Forward !");
 
 			RequestDispatcher dispatcher //
 					= request.getServletContext().getRequestDispatcher("/show");

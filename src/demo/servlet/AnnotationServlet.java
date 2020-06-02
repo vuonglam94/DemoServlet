@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = { "/annotation-demo", "/anno-demo" }, initParams = {
+@WebServlet(urlPatterns = { "/annotation", "/anno" }, initParams = {
 		@WebInitParam(name = "emailSupport1", value = "sp1@gmail.com"),
 		@WebInitParam(name = "emailSupport2", value = "sp2@gmail.com") })
 public class AnnotationServlet extends HttpServlet {

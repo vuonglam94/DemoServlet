@@ -2,11 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Demo Servlet</title>
 </head>
 <body>
- 
-   <h1>Hello World</h1>
- 
+	<h1>This is Servlet Welcome File</h1>
+	<ul>
+		<li><a href="hello">Servlet Hello (config in web.xml)</a></li>
+		<li><a href="init-param">Servlet with Init Param (config in web.xml)</a></li>
+		<li><a href="annotation">Servlet with Init Param (config with Annotation)</a></li>
+		<li><a href="info?text1=Vuong&text2=Lam">Servlet get Info</a></li>
+		<li><a href="forward?forward=false">Servlet Demo Forward</a></li>
+		<li><a href="redirect?redirect=false">Servlet Demo Redirect</a></li>
+		<li><a href="session-login">Servlet Demo Session</a></li>
+	</ul>
 </body>
 </html>

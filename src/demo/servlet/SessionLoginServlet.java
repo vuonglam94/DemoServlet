@@ -35,7 +35,7 @@ public class SessionLoginServlet extends HttpServlet {
 		out.println("<head><title>Session example</title></head>");
 
 		out.println("<body>");
-		out.println("<h3>You are logined!, info stored in session</h3>");
+		out.println("<h3>You are logined! Info stored in session</h3>");
 
 		out.println("<a href='user-info'>View User Info</a>");
 		out.println("</body>");

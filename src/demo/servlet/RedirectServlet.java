@@ -23,7 +23,7 @@ public class RedirectServlet extends HttpServlet {
 		String redirect = request.getParameter("redirect");
 
 		if ("true".equals(redirect)) {
-			System.out.println("Redirect to ShowServlet");
+			System.out.println("Redirect to Show Servlet");
 
 			// contextPath: Là một String rỗng "" hoặc khác rỗng.
 			// Nếu khác rỗng, nó luôn bắt đầu bởi /
